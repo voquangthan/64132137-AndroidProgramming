@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "voquangthan.helloworrd"
+    namespace = "com.example.myapplication"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "voquangthan.helloworrd"
+        applicationId = "com.example.myapplication"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
