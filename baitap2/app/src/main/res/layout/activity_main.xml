@@ -53,7 +53,7 @@
 
     <!-- Nút "tính tổng" -->
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonTinhTong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="tính tổng"
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:text="kết quả là:"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTinhTong"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp" />
 
