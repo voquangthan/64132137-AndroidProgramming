@@ -19,17 +19,18 @@
         android:layout_marginTop="16dp" />
 
     <!-- Trường nhập a (EditText) -->
+
+    <!-- Nhãn "nhập b:" -->
     <EditText
         android:id="@+id/editTextA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:hint="Nhập a"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        android:layout_marginStart="8dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
 
-    <!-- Nhãn "nhập b:" -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -89,8 +90,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
