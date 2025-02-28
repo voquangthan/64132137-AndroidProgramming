@@ -12,6 +12,13 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
         val Inputa= findViewById<EditText>(R.id.inputa)
         val Inputb= findViewById<EditText>(R.id.inputb)
         val Button1= findViewById<Button>(R.id.btn1)
@@ -21,13 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
     }
     private  fun TinhTong(Inputa:EditText,Inputb:EditText,Result:TextView){
         val a=Inputa.text.toString().toInt()
