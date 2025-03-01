@@ -29,6 +29,15 @@ class MainActivity : AppCompatActivity() {
         BtnCong.setOnClickListener{
             TinhTong(a, b, KQ)
         }
+        BtnTru.setOnClickListener{
+            Tru(a, b, KQ)
+        }
+        BtnNhan.setOnClickListener{
+            Nhan(a, b, KQ)
+        }
+        BtnChia.setOnClickListener{
+            Chia(a, b, KQ)
+        }
 
 
     }
@@ -37,5 +46,23 @@ class MainActivity : AppCompatActivity() {
         val sob=b.text.toString().toInt()
         val sum=soa+sob
         KQ.text="kết quả cộng là: $sum"
+    }
+    private fun Tru(a:EditText,b:EditText,KQ:TextView){
+        val soa=a.text.toString().toInt()
+        val sob=b.text.toString().toInt()
+        val hieu=soa-sob
+        KQ.text="kết quả trừ là: $hieu"
+    }
+    private fun Nhan(a:EditText,b:EditText,KQ:TextView){
+        val soa=a.text.toString().toInt()
+        val sob=b.text.toString().toInt()
+        val tich=soa*sob
+        KQ.text="kết quả nhân là: $tich"
+    }
+    private fun Chia(a:EditText,b:EditText,KQ:TextView){
+        val soa=a.text.toString().toInt()
+        val sob=b.text.toString().toInt()
+        val thuong=soa-sob
+        KQ.text="kết quả chia là: $thuong"
     }
 }
