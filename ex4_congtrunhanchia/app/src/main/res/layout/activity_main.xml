@@ -73,12 +73,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnn"
         android:layout_width="75dp"
         android:layout_height="45dp"
-        android:layout_marginStart="212dp"
         android:layout_marginTop="212dp"
         android:text="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -87,9 +88,10 @@
         android:layout_width="75dp"
         android:layout_height="45dp"
         android:layout_marginTop="212dp"
-        android:layout_marginEnd="32dp"
         android:text="/"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
