@@ -10,7 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity  () {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
         val Chia= findViewById<Button>(R.id.btnchia)
         val KQ= findViewById<TextView>(R.id.kq)
        Tru.setOnClickListener(){
-            Tong(Soa,Sob,KQ)
+            Hieu(Soa,Sob,KQ)
        }
         Cong.setOnClickListener(){
-            Hieu(Soa,Sob,KQ)
+            Tong(Soa,Sob,KQ)
 
         }
         Chia.setOnClickListener(){

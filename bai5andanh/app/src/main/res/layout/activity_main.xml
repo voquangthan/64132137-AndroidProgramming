@@ -5,17 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9E4E4E"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Số nguyên a"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="108dp"
+        android:text="a"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,10 +21,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
-        android:text="Số nguyên b"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="180dp"
+        android:text="b"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,12 +31,12 @@
         android:id="@+id/input1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="92dp"
         android:ems="10"
         android:inputType="text"
-        android:text="...."
+        android:text="......"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,12 +44,12 @@
         android:id="@+id/input2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="172dp"
         android:ems="10"
         android:inputType="text"
-        android:text="...."
+        android:text="......"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,40 +57,19 @@
         android:id="@+id/btncong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="284dp"
         android:text="+"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btntru"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
-        android:text="-"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnchia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
-        android:text="/"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/kq"
-        android:layout_width="84dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="160dp"
-        android:text="kết quả là:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="164dp"
+        android:text="kq là"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
