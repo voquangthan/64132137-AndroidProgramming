@@ -1,9 +1,7 @@
 package com.example.ex7;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,28 +9,23 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
- Button Button1;
- void Dieukhien(){
-     Button1=findViewById(R.id.button1);
+public class MH3Activity extends AppCompatActivity {
+  TextView View1;
+ void Dieukien(){
+     View1=findViewById(R.id.view1);
  }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mh3);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Dieukhien();
-        Button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent Intmain= new Intent(MainActivity.this,Mh2Activity.class);
-                startActivity(Intmain);
-            }
-        });
+        Dieukien();
+        String dk= getIntent().getStringExtra("USERNAME");
+        View1.setText("CHÀO MỪNG "+ dk);
     }
 }
