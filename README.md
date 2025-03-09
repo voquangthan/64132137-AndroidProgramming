@@ -31,6 +31,8 @@
 | ![image](https://github.com/user-attachments/assets/20b51460-2309-4d71-9dd3-22fd1e912949) | ![image](https://github.com/user-attachments/assets/9e64deef-f831-42af-a2d5-11df63d8cc16) |
 
 
+<h2>Bài tập 6 </h2>
 
-
-
+| Ảnh 1 | Ảnh 2 | Ảnh 3 |
+|-------|-------|-------|
+| ![image 1](https://github.com/user-attachments/assets/09db1ab8-9417-4198-9f25-184e79e78d02) | ![image 2](https://github.com/user-attachments/assets/e17b542b-c2f6-4653-bc13-740b8879ceb5) | ![image 3](https://github.com/user-attachments/assets/6981c072-8a81-4765-bcbb-19ec6ede7ce9) |
