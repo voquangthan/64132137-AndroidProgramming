@@ -10,7 +10,9 @@
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:padding="35dp"
-     android:background="@color/bg_header">
+     android:background="@color/bg_header"
+     android:orientation="vertical">
+
      <TextView
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
@@ -21,8 +23,97 @@
          android:textStyle="bold"
          >
      </TextView>
-
-
  </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/logoheader"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="144dp"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="214dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello Manu"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/tex1">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Language"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textColor="@color/mathisfun"
+            android:textStyle="bold">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="345dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="30dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/x1"
+                android:text="Nhấn vào đây" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/x1"
+                android:text="Button 2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="30dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/x1"
+                android:text="Nhấn vào đây" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/m1"
+                android:background="@drawable/x1"
+                android:text="Button 2" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
