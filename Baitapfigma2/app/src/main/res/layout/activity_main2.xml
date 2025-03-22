@@ -42,19 +42,11 @@
         tools:layout_editor_absoluteY="214dp"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello Manu"
-            android:textAlignment="center"
-            android:textSize="25dp"
-            android:textColor="@color/tex1">
 
-        </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Language"
+            android:text="Modes"
             android:textAlignment="center"
             android:textSize="40dp"
             android:textColor="@color/mathisfun"
@@ -81,7 +73,9 @@
                 android:layout_margin="20dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/rounded_button"
-                android:text="English"
+                android:text="Đếm "
+                android:textSize="20dp"
+
                 android:textColor="#238023" />
 
             <Button
@@ -89,8 +83,8 @@
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/rounded_button"
-
-                android:text="ಕನ್ನಡ"
+                android:textSize="20dp"
+                android:text="Nối hình"
                 android:textColor="#007AFF" />
         </LinearLayout>
 
@@ -104,7 +98,8 @@
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/rounded_button"
-                android:text="मराठी"
+                android:text="Pattern"
+                android:textSize="20dp"
                 android:textColor="#D32F2F" />
 
             <Button
@@ -112,7 +107,8 @@
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/rounded_button"
-                android:text="हिन्दी"
+                android:text="Setting"
+                android:textSize="20dp"
                 android:textColor="#FFA000" />
         </LinearLayout>
 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp"
+        android:background="@color/bg_header"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Math is fun!"
+            android:textSize="55dp"
+            android:textAlignment="center"
+            android:textColor="@color/mathisfun"
+            android:textStyle="bold"
+            >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/logoheader"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="144dp"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="214dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="359dp"
+            android:layout_height="258dp"
+            android:background="@drawable/hinhgau1"
+            android:text="How many bear"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_button_green"
+                android:text="4"
+                android:textColor="#008000"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_button_blue"
+                android:text="2"
+                android:textColor="#007AFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_button_pink"
+                android:text="1"
+                android:textColor="#A50034"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_button_beige"
+                android:text="6"
+                android:textColor="#D5B89D"
+                android:textSize="24sp" />
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <?xml version="1.0" encoding="utf-8"?>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
