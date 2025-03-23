@@ -6,41 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="35dp"
         android:background="@color/bg_header"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Math is fun!"
-            android:textSize="55dp"
             android:textAlignment="center"
             android:textColor="@color/mathisfun"
-            android:textStyle="bold"
-            >
-        </TextView>
+            android:textSize="55dp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableRight="@drawable/logoheader"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="144dp"
-        >
-    </TextView>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217"
+        tools:layout_editor_absoluteX="-16dp"></TextView>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="409dp"
+        android:layout_height="513dp"
+        android:orientation="vertical"
         android:padding="20dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="214dp"
-        android:orientation="vertical">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="1dp">
 
 
         <TextView
@@ -55,8 +62,8 @@
         </TextView>
 
         <GridLayout
-            android:layout_width="315dp"
-            android:layout_height="wrap_content"
+            android:layout_width="316dp"
+            android:layout_height="188dp"
             android:layout_gravity="center"
             android:columnCount="2"
             android:rowCount="2">
@@ -66,7 +73,7 @@
                 android:layout_height="60dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="8dp"
-                android:background="@drawable/rounded_button_green"
+                android:background="@drawable/rounded_button"
                 android:text="4"
                 android:textColor="#008000"
                 android:textSize="24sp" />
@@ -76,7 +83,7 @@
                 android:layout_height="60dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="8dp"
-                android:background="@drawable/rounded_button_blue"
+                android:background="@drawable/rounded_button"
                 android:text="2"
                 android:textColor="#007AFF"
                 android:textSize="24sp" />
@@ -86,7 +93,7 @@
                 android:layout_height="60dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="8dp"
-                android:background="@drawable/rounded_button_pink"
+                android:background="@drawable/rounded_button"
                 android:text="1"
                 android:textColor="#A50034"
                 android:textSize="24sp" />
@@ -96,21 +103,14 @@
                 android:layout_height="60dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="8dp"
-                android:background="@drawable/rounded_button_beige"
+                android:background="@drawable/rounded_button"
                 android:text="6"
                 android:textColor="#D5B89D"
                 android:textSize="24sp" />
         </GridLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="16dp">
-
-        </RelativeLayout>
 
     </LinearLayout>
-    <?xml version="1.0" encoding="utf-8"?>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
