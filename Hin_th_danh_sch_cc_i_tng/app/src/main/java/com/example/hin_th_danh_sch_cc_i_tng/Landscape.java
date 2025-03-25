@@ -1,3 +1,4 @@
+package com.example.hin_th_danh_sch_cc_i_tng;
 public class Landscape {
     String landimage;
     String landcation;
