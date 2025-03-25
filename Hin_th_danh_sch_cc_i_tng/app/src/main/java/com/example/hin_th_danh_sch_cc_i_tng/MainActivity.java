@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<Landscape> getdataforrecylerview() {
         ArrayList<Landscape> dsdulieu = new ArrayList<>();
-        dsdulieu.add(new Landscape("flag_tower_of_hanoi", "Cột cờ Hà Nội"));
+        dsdulieu.add(new Landscape("login", "Cột cờ Hà Nội"));
         dsdulieu.add(new Landscape("background_image1", "Xin chào 2"));
         dsdulieu.add(new Landscape("background_image", "Xin chào 5"));
         dsdulieu.add(new Landscape("hinhgau1", "Xin chào 7"));
