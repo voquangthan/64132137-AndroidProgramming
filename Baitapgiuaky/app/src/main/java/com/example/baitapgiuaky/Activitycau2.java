@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,7 +39,8 @@ public class Activitycau2 extends AppCompatActivity {
         Lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                    String inra=mang.get(position);
+                Toast.makeText(Activitycau2.this,"bạn đã chọn"+inra,Toast.LENGTH_SHORT).show();
             }
         });
     }
