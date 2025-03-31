@@ -18,16 +18,16 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        // Khởi tạo RecyclerView
-        recyclerViewlandscape = findViewById(R.id.recyclerland);
-        recylerviewdata = getdataforrecylerview();
+            // Khởi tạo RecyclerView
+            recyclerViewlandscape = findViewById(R.id.recyclerland);
+            recylerviewdata = getdataforrecylerview();
 
-        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
-        recyclerViewlandscape.setLayoutManager(layoutLinear);
+            RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+            recyclerViewlandscape.setLayoutManager(layoutLinear);
 
-        // Gọi đúng constructor của Adapter (Đổi thứ tự tham số)
-        landscapeAdapter = new LandscapeAdapter(recylerviewdata, this);
-        recyclerViewlandscape.setAdapter(landscapeAdapter);
+            // Gọi đúng constructor của Adapter (Đổi thứ tự tham số)
+            landscapeAdapter = new LandscapeAdapter(recylerviewdata, this);
+            recyclerViewlandscape.setAdapter(landscapeAdapter);
     }
 
     ArrayList<Landscape> getdataforrecylerview() {

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this,"xin chao",toa)
+                    Toast.makeText(MainActivity.this,"xin chao",Toast.LENGTH_SHORT).show();
                 }
 
             }
