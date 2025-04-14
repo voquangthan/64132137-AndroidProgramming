@@ -1,9 +1,13 @@
 package com.example.than1;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+=======
+import android.os.Bundle;
+>>>>>>> acc72e5386ff2e307414f2dcba25a26eabaae0a5
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,10 +16,14 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
     Button Btn1;
     Button Btn2;
     Button Btn3;
     Button Btn4;
+=======
+
+>>>>>>> acc72e5386ff2e307414f2dcba25a26eabaae0a5
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+<<<<<<< HEAD
         Btn1=findViewById(R.id.btn1);
         Btn2=findViewById(R.id.btn2);
         Btn3=findViewById(R.id.btn3);
@@ -59,5 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> acc72e5386ff2e307414f2dcba25a26eabaae0a5
     }
 }
