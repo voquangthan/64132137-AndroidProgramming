@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hiển_thị_danh_sách_các_đối_tượng" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Hiển_thị_danh_sách_các_đối_tượng" parent="Base.Theme.Hiển_thị_danh_sách_các_đối_tượng" />
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mathisfun">#EE8B60</color>
+    <color name="bg_header">#FBDAB1</color>
+    <color name="m1">#18B74B</color>
+    <color name="m2">#1BA7A6</color>
+    <color name="m3">#FFAEBC</color>
+    <color name="m4">#EDC463</color>
+    <color name="tex1">#607D8B</color>
+
+</resources>
