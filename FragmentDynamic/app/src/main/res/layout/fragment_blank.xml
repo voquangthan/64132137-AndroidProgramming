@@ -7,11 +7,12 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/holder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#C76161"
+        android:background="#A04040"
         android:gravity="center"
-        android:textSize="30dp"
-        android:text="xin chào các bạn" />
+        android:text="@string/hello_blank_fragment"
+        android:textSize="30dp" />
 
 </FrameLayout>

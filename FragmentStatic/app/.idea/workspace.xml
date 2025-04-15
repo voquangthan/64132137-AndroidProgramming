@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ebe964-9014-4fde-b878-3510c7ff1ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/BlankFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/FooterFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_blank.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_footer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_blank2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_blank3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/BlankFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/BlankFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/FooterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/java/com/example/fragmentdynamic/BlankFragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_footer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FragmentDynamic/app/src/main/res/layout/fragment_footer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vjZCWOQIht2bbrZAxT3Lkoiw8o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,6 +42,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/64132137-AndroidProgramming/FragmentStatic/app"
   }
