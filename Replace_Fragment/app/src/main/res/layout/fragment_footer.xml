@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FooterFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/footer"
+        android:background="#2981C7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        app:layout_constraintTop_toTopOf="@+id/footer"
+        app:layout_constraintBottom_toBottomOf="@+id/footer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        app:layout_constraintTop_toTopOf="@+id/footer"
+        app:layout_constraintBottom_toBottomOf="@+id/footer"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintEnd_toStartOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 3"
+        app:layout_constraintTop_toTopOf="@+id/footer"
+        app:layout_constraintBottom_toBottomOf="@+id/footer"
+        app:layout_constraintStart_toEndOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

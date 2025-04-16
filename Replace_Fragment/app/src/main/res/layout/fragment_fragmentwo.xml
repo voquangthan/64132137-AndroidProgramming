@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/holder"
+    android:id="@+id/frame2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlankFragment">
+    tools:context=".Fragmentwo">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/frame1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#A04040"
+        android:background="#E0911B"
         android:gravity="center"
         android:text="@string/hello_blank_fragment"
         android:textSize="30dp" />
